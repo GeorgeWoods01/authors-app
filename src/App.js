@@ -39,11 +39,11 @@ function App() {
             {doc ? <h1>{doc.name}</h1> : null}
           </div>
           <div className="description">
-            {doc.birth_date ? <p>Born: {doc.birth_date}</p> : null}
-            {doc.death_date ? <p>Died: {doc.death_date}</p> : null}
-            {doc.date ? <p>Life: {doc.date}</p> : null}
-            {doc.top_work ? <p>Greatest work: {doc.top_work}</p> : null}
-            {doc.work_count ? <p>Number of books published: {doc.work_count}</p> : null}
+            {doc.birth_date ? <p><strong>Born: </strong>{doc.birth_date}</p> : null}
+            {doc.death_date ? <p><strong>Died: </strong>{doc.death_date}</p> : null}
+            {doc.date ? <p><strong>Life: </strong>{doc.date}</p> : null}
+            {doc.top_work ? <p><strong>Greatest work: </strong>{doc.top_work}</p> : null}
+            {doc.work_count ? <p><strong>Number of books published: </strong>{doc.work_count}</p> : null}
           </div>
         </div>
       </div>
