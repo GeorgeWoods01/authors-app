@@ -20,7 +20,7 @@ function App() {
     {data.docs ?
     (<div className="app">
       <div className="title-text">
-        <h1>Find That author</h1>
+        <h1>Which author would you like to find out about?</h1>
       </div>
       <div className="search">
         <input

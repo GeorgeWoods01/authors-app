@@ -34,8 +34,8 @@ img {
   width: 100%;
   height: 100%;
   position: relative;
-  background-color: rgba(38, 16, 25, 1);
-  color: #fff;
+  background-color: #048A81;
+  color: #E0CA3C;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -51,7 +51,7 @@ img {
   font-size: 1.2rem;
   border-radius: 25px;
   border: 1px solid rgba(255,255,255, 0.8);
-  background: #50514F;
+  background: #93B7BE;
   color: #f8f8f8;
 }
 
@@ -88,8 +88,8 @@ img {
   width: 100%;
   height: 100vh;
   position: relative;
-  background-color: rgba(38, 16, 25, 1);
-  color: #fff;
+  background-color: #048A81;
+  color: #E0CA3C;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -100,6 +100,6 @@ img {
   font-size: 1.2rem;
   border-radius: 25px;
   border: 1px solid rgba(255,255,255, 0.8);
-  background: #50514F;
+  background: #93B7BE;
   color: #f8f8f8;
 }
